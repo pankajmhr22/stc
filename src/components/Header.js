@@ -1,8 +1,6 @@
 import "./Header.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { library } from "@fortawesome/fontawesome-svg-core";
-import { faAddressBook, faCoffee } from "@fortawesome/free-solid-svg-icons";
-import { faLinkedin, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
+import { faAddressBook} from "@fortawesome/free-solid-svg-icons";
 
 function Header() {
   const headerNavOptions = [
