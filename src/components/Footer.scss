@@ -1,26 +1,56 @@
-.footer-nav-contact-us {
+.footer-love {
     float: right;
     padding: 5px;
     position: relative;
-    top: 30px;
+    top: 36px;
+    margin-right: 10px;
 
     .nav-option {
       padding: 5px;
       cursor: pointer;
     }
+
+}
+
+.social-icons{
+    text-align: center;
+    width:1100%;
+    position:relative;
 }
 
 .social-handle-icon {
     padding: 10px;
-    
+    font-size: 1.4em;
+    // align-items: flex-end;
+    //right: 500px;
 }
 
-.social-handle-icon-love {
+.iin:hover,.iin:focus{
+    filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(150%);
+}
+
+.fin:hover,
+.fin:focus {
+//   filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(200%);
+  color: rgb(0, 81, 255) !important;
+}
+
+.lin:hover,
+.lin:focus {
+  //filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(200%);
+  color: rgb(0, 81, 255) !important;
+}
+
+.icon-love {
     padding: 2px;
     
 }
 
+.corporation{
+    margin-left: 10px;
+}
+
 .footer-container{
-    background-color: #f60035;
+    background-color: #6e544a6b;
     min-height: 75px;
 }
