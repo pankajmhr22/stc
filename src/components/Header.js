@@ -1,12 +1,13 @@
 import "./Header.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAddressBook} from "@fortawesome/free-solid-svg-icons";
+import { faAddressBook } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
-function Header() {
+function Header(props) {
   const headerNavOptions = [
-    { key: "home", displayName: "Home" },
-    { key: "products", displayName: "Our Products" },
-    { key: "about", displayName: "About Us" },
+    { key: "home", displayName: "Home", routePath: "/" },
+    { key: "products", displayName: "Our Products", routePath: "/products" },
+    { key: "about", displayName: "About Us", routePath: "/about" },
   ];
 
   return (
@@ -15,9 +16,11 @@ function Header() {
       <div className="header-nav-actions stc-display-inline-block">
         {headerNavOptions.map((navOption) => {
           return (
-            <span className="nav-option" key={navOption.key}>
-              {navOption.displayName}
-            </span>
+            <Link to={navOption.routePath}>
+              <span className="nav-option" key={navOption.key}>
+                {navOption.displayName}
+              </span>
+            </Link>
           );
         })}
       </div>
