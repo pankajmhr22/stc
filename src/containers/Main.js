@@ -4,6 +4,8 @@ import { React, Component } from "react";
 import { Footer } from "../components/Footer";
 import { About } from "../components/About";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { Catalogue } from "../components/Catalogue";
+import { Home } from "../components/Home";
 
 class Main extends Component {
   constructor() {
@@ -19,10 +21,12 @@ class Main extends Component {
           <Header />
           <div className="app-content">
             <Switch>
+              <Route exact path="/" component={Home} />
               <Route path="/about" component={About} />
+              <Route path="/products" component={Catalogue} />
               <Route
                 render={() => {
-                  return <h1>OOPS U TYPE SOMETHING ELSE....</h1>;
+                  return <div>OOPS U TYPE SOMETHING ELSE....</div>;
                 }}
               />
             </Switch>

@@ -1,0 +1,36 @@
+.catalogue-container {
+  padding: 10px;
+
+  .catalogue-container-heading {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    font-style: italic;
+    font-family: ui-sans-serif;
+    color: #4c578d;
+  }
+
+  .catalogue-main-container {
+    text-align: center;
+  }
+  .stc-product {
+    border: 1px solid grey;
+    width: 170px;
+    height: 190px;
+    margin: 10px;
+
+    .stc-product-image {
+      width: 170px;
+      height: 150px;
+    }
+
+    .stc-product-details {
+      border-top: 1px solid grey;
+    }
+
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 5px 5px #80808038;
+    }
+  }
+}

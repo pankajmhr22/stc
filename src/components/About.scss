@@ -1,0 +1,18 @@
+.about-container {
+  padding: 10px;
+
+  .initial-desc-container {
+    display: flex;
+
+    .img-container {
+      border: 1px solid grey;
+      content: url("../logo.svg");
+      height: 200px;
+      width: 200px;
+    }
+
+    .about-initial-desc {
+      width: 100%;
+    }
+  }
+}

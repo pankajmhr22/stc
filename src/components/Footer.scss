@@ -1,56 +1,45 @@
 .footer-love {
-    float: right;
+  float: right;
+  padding: 0px 10px;
+
+  .nav-option {
     padding: 5px;
-    position: relative;
-    top: 36px;
-    margin-right: 10px;
-
-    .nav-option {
-      padding: 5px;
-      cursor: pointer;
-    }
-
+    cursor: pointer;
+  }
 }
 
-.social-icons{
-    text-align: center;
-    width:1100%;
-    position:relative;
+.social-icons {
+  text-align: center;
 }
 
 .social-handle-icon {
-    padding: 10px;
-    font-size: 1.4em;
-    // align-items: flex-end;
-    //right: 500px;
+  padding: 10px;
+  font-size: 1.4em;
+  cursor: pointer;
 }
 
-.iin:hover,.iin:focus{
-    filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(150%);
+.iin {
+  color: #ff00008a;
 }
 
-.fin:hover,
-.fin:focus {
-//   filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(200%);
-  color: rgb(0, 81, 255) !important;
+.fin {
+  color: #385185;
 }
 
-.lin:hover,
-.lin:focus {
-  //filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(200%);
-  color: rgb(0, 81, 255) !important;
+.lin {
+  color: #0a66c2;
 }
 
 .icon-love {
-    padding: 2px;
-    
+  padding: 2px;
+  color: #f32626;
 }
 
-.corporation{
-    margin-left: 10px;
+.corporation {
+  padding: 0px 10px;
 }
 
-.footer-container{
-    background-color: #6e544a6b;
-    min-height: 75px;
+.footer-container {
+  background-color: #6e544a6b;
+  min-height: 75px;
 }

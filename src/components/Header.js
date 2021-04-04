@@ -16,7 +16,7 @@ function Header(props) {
       <div className="header-nav-actions stc-display-inline-block">
         {headerNavOptions.map((navOption) => {
           return (
-            <Link to={navOption.routePath}>
+            <Link className="nav-option-link" to={navOption.routePath}>
               <span className="nav-option" key={navOption.key}>
                 {navOption.displayName}
               </span>
